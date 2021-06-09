@@ -1,0 +1,196 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"52388b76-1b64-4e81-8275-b7b3b6bd86f5\" name=\"Default Changelist\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/.gitignore\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Ping Pong.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1thuwlWqjD3g7JGSGjHqsrvXjau\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"Ping Pong\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"5 Games\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Ping Pong.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"52388b76-1b64-4e81-8275-b7b3b6bd86f5\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1623233885242</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1623233885242</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 874754c68a06624bec4467739da9cf53bc911052)
++++ b/.idea/workspace.xml	(date 1623244729419)
+@@ -1,9 +1,9 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="52388b76-1b64-4e81-8275-b7b3b6bd86f5" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Ping Pong.py" afterDir="false" />
++    <list default="true" id="52388b76-1b64-4e81-8275-b7b3b6bd86f5" name="Default Changelist" comment="Pong Game Retro Commit">
++      <change afterPath="$PROJECT_DIR$/Pong Game Retro.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -27,8 +27,10 @@
+     <option name="showLibraryContents" value="true" />
+   </component>
+   <component name="PropertiesComponent">
++    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
++    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+   </component>
+   <component name="RunManager">
+@@ -63,6 +65,14 @@
+       <option name="presentableId" value="Default" />
+       <updated>1623233885242</updated>
+     </task>
++    <task id="LOCAL-00001" summary="Pong Game Retro Commit">
++      <created>1623243137522</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1623243137522</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -75,5 +85,10 @@
+         </entry>
+       </map>
+     </option>
++    <option name="oldMeFiltersMigrated" value="true" />
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="Pong Game Retro Commit" />
++    <option name="LAST_COMMIT_MESSAGE" value="Pong Game Retro Commit" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: Pong Game Retro.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Pong Game Retro.py b/Pong Game Retro.py
+new file mode 100644
+--- /dev/null	(date 1623244729164)
++++ b/Pong Game Retro.py	(date 1623244729164)
+@@ -0,0 +1,125 @@
++
++
++import turtle
++
++window = turtle.Screen()
++window.title("Pong by @simeonbb")
++window.bgcolor("black")
++window.setup(width=1000, height=800)
++window.tracer(0)
++
++# Score
++score_1 = 0
++score_2 = 0
++
++# Paddle A
++paddle_1 = turtle.Turtle()
++paddle_1.speed(0)
++paddle_1.shape("square")
++paddle_1.color("white")
++paddle_1.shapesize(stretch_wid=5, stretch_len=1)
++paddle_1.penup()
++paddle_1.goto(-450, 0)
++
++# Paddle B
++paddle_2 = turtle.Turtle()
++paddle_2.speed(0)
++paddle_2.shape("square")
++paddle_2.color("white")
++paddle_2.shapesize(stretch_wid=5, stretch_len=1)
++paddle_2.penup()
++paddle_2.goto(450, 0)
++
++# Ball
++ball = turtle.Turtle()
++ball.speed(0)
++ball.shape("square")
++ball.color("white")
++ball.penup()
++ball.goto(0, 0)
++ball.dx = .75
++ball.dy = .75
++
++# Pen
++pen = turtle.Turtle()
++pen.speed(0)
++pen.shape("square")
++pen.color("white")
++pen.penup()
++pen.hideturtle()
++pen.goto(0, 360)
++pen.write("Player 1: 0  |  Player 2: 0", align="center", font=("Courier", 24, "normal"))
++
++
++# Functions
++def paddle_1_up():
++    y = paddle_1.ycor()
++    y += 20
++    paddle_1.sety(y)
++
++
++def paddle_1_down():
++    y = paddle_1.ycor()
++    y -= 20
++    paddle_1.sety(y)
++
++
++def paddle_2_up():
++    y = paddle_2.ycor()
++    y += 20
++    paddle_2.sety(y)
++
++
++def paddle_2_down():
++    y = paddle_2.ycor()
++    y -= 20
++    paddle_2.sety(y)
++
++
++# Keyboard bindings
++window.listen()
++window.onkeypress(paddle_1_up, "w")
++window.onkeypress(paddle_1_down, "s")
++window.onkeypress(paddle_2_up, "Up")
++window.onkeypress(paddle_2_down, "Down")
++
++# Main game loop
++while True:
++    window.update()
++
++    # Move the ball
++    ball.setx(ball.xcor() + ball.dx)
++    ball.sety(ball.ycor() + ball.dy)
++
++    # Border checking
++
++    # Top and bottom
++    if ball.ycor() > 290:
++        ball.sety(290)
++        ball.dy *= -1
++
++    elif ball.ycor() < -290:
++        ball.sety(-290)
++        ball.dy *= -1
++
++    # Left and right
++    if ball.xcor() > 350:
++        score_1 += 1
++        pen.clear()
++        pen.write(f'Player A: {score_1}  Player B: {score_2}', align="center", font=("Courier", 24, "normal"))
++        ball.goto(0, 0)
++        ball.dx *= -1
++
++    elif ball.xcor() < -350:
++        score_2 += 1
++        pen.clear()
++        pen.write(f'Player A: {score_1}  Player B: {score_2}', align="center", font=("Courier", 24, "normal"))
++        ball.goto(0, 0)
++        ball.dx *= -1
++
++    # Paddle and ball collisions
++    if ball.xcor() < -340 and paddle_1.ycor() + 50 > ball.ycor() > paddle_1.ycor() - 50:
++        ball.dx *= -1
++
++    elif ball.xcor() > 340 and paddle_2.ycor() + 50 > ball.ycor() > paddle_2.ycor() - 50:
++        ball.dx *= -1
